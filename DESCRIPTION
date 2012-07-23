@@ -6,6 +6,6 @@ License: file LICENSE
 Author: erik.shilts
 Maintainer: <erik.shilts@opower.com>
 Depends:
-    dccrimedata
+    dccrimedata,ggplot2
 Collate:
     'clean_data_time.R'
