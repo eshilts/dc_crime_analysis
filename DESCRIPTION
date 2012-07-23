@@ -1,0 +1,11 @@
+Package: dccrimeanalysis
+Title: An R package to analyze DC crime data.
+Description: Analysis of DC crime data from DC from 2006 to mid-2012
+Version: 0.1
+License: file LICENSE
+Author: erik.shilts
+Maintainer: <erik.shilts@opower.com>
+Depends:
+    dccrimedata
+Collate:
+    'clean_data_time.R'
