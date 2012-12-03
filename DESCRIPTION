@@ -1,11 +1,15 @@
 Package: dccrimeanalysis
 Title: An R package to analyze DC crime data.
-Description: Analysis of DC crime data from DC from 2006 to mid-2012
+Description: Analysis of DC crime data from DC from 2006 to mid-2012.
 Version: 0.1
-License: file LICENSE
+License: GPL-3
 Author: erik.shilts
-Maintainer: <erik.shilts@opower.com>
+Maintainer: <erik.shilts@gmail.com>
 Depends:
-    dccrimedata,ggplot2
+    dccrimedata,ggplot2 (>= 0.9.2),scales,ggmap,mapproj
 Collate:
-    'clean_data_time.R'
+    'get_dc_map.R'
+    'plot_homicide_density.R'
+    'plot_homicide_points.R'
+    'dccrimeanalysis-package.R'
+LazyData: yes

@@ -4,8 +4,7 @@
 *.bck
 *.idea
 .Rhistory
-man
-NAMESPACE
 *.Rcheck
 *.tar.gz
 out/*
+ggmapTemp.png
