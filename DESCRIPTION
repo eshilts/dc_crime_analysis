@@ -14,9 +14,10 @@ Depends:
     mapproj
 Collate:
     'get_dc_map.R'
-    'plot_homicide_density.R'
-    'plot_homicide_points.R'
     'dccrimeanalysis-package.R'
     'get_dc_color_names.R'
     'get_dc_hex.R'
+    'plot_density_on_map.R'
+    'plot_offense_counts.R'
+    'plot_points_on_map.R'
 LazyData: yes
