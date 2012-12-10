@@ -1,3 +1,5 @@
+export(get_dc_color_names)
+export(get_dc_hex)
 export(get_dc_map)
 export(plot_homicide_density)
 export(plot_homicide_points)

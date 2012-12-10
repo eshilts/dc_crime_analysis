@@ -6,10 +6,17 @@ License: GPL-3
 Author: erik.shilts
 Maintainer: <erik.shilts@gmail.com>
 Depends:
-    dccrimedata,ggplot2 (>= 0.9.2),scales,ggmap,mapproj
+    R (>= 2.10),
+    dccrimedata,
+    ggplot2 (>= 0.9.2),
+    scales,
+    ggmap,
+    mapproj
 Collate:
     'get_dc_map.R'
     'plot_homicide_density.R'
     'plot_homicide_points.R'
     'dccrimeanalysis-package.R'
+    'get_dc_color_names.R'
+    'get_dc_hex.R'
 LazyData: yes

@@ -15,6 +15,6 @@
   Plots homicide points from 2006-2012.
 }
 \examples{
-plot_homicide_density(crime_data=dc_crime_data_sample[dc_crime_data_sample$OFFENSE=="HOMICIDE", ])
+plot_homicide_points(crime_data=dc_crime_data_sample[dc_crime_data_sample$OFFENSE=="HOMICIDE", ])
 }
 

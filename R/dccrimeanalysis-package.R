@@ -40,3 +40,13 @@ NULL
 #' @author Erk Shilts \email{erik_shilts@@gmail.com}
 #' @keywords data
 NULL
+
+#' DC Crime Data Colors
+#'
+#' Data.frame of colors used for DC Crime Maps
+#'
+#' @name dc_crime_colors
+#' @docType data
+#' @author Erk Shilts \email{erik_shilts@@gmail.com}
+#' @keywords data
+NULL

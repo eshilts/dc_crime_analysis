@@ -8,3 +8,6 @@
 *.tar.gz
 out/*
 ggmapTemp.png
+images/*
+css/*
+js/*
