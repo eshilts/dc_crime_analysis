@@ -5,7 +5,7 @@
 #' @param crime_data data.frame of homicides
 #' @param dc_map map to use for plotting. Consider using get_dc_map().
 #' @examples
-#' plot_homicide_density(crime_data=dc_crime_data_sample[dc_crime_data_sample$OFFENSE=="HOMICIDE", ]) 
+#' plot_homicide_points(crime_data=dc_crime_data_sample[dc_crime_data_sample$OFFENSE=="HOMICIDE", ]) 
 #' @export
 plot_homicide_points <- function(crime_data, dc_map=dc_roadmap_zoom12) {
   p <- ggmap(dc_map, extent="device") +
@@ -15,7 +15,8 @@ plot_homicide_points <- function(crime_data, dc_map=dc_roadmap_zoom12) {
         x=longitude, 
         y=latitude 
       ),
-      alpha=0.25 
+      alpha=0.75,
+      colour="#780C28"
     )
 
   p
